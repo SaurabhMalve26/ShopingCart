@@ -1,10 +1,13 @@
 import Container from "@/MyComponent/ServerSideComponents/NormalFiels/Container";
 import React from "react";
+import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header>
-      <Container className="bg-red-200 max-w-full">Header</Container>
+    <header className="bg-white py-5">
+      <Container>
+        <Logo />
+      </Container>
     </header>
   );
 };
