@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
+import Container from "@/MyComponent/ServerSideComponents/NormalFiels/Container";
 import React from "react";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
-    <div className="p-10 bg-shop-light-pink">
+    <Container className="bg-shop-light-pink">
       <h2 className="text-2xl font-semibold  text-red-700">Home </h2>
 
       <div>
@@ -16,7 +17,7 @@ const Home = () => {
         sit reiciendis illo.''
       </div>
       <Button variant="destructive">Check it out </Button>
-    </div>
+    </Container>
   );
 };
 
